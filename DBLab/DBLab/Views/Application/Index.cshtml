@@ -1,0 +1,73 @@
+﻿@{
+    ViewBag.Title = "Заявка";
+}
+
+<h2>Заявка</h2>
+
+@if (!Request.IsAuthenticated)
+{
+
+ if (!ViewBag.App)
+ {
+
+     using (Html.BeginForm("AddApplication", "Application", FormMethod.Post))
+     {
+        <!-- <div id="application"> test</div>-->
+         <h3>Имя:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             @Html.TextBox("name", null, new {style = "width:200px;"})
+             <br />
+             Фамилия:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             @Html.TextBox("surname", null, new {style = "width:200px;"})
+             <br />
+             Отчество:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             @Html.TextBox("patronymic", null, new {style = "width:200px;"})
+             <br />
+             Контактный телефон:&nbsp;&nbsp;
+             @Html.TextBox("phoneNumber", null, new {style = "width:200px;"})
+             <br />
+             E-Mail:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             @Html.TextBox("address", null, new {style = "width:400px;"})
+             <br />
+             </h3>
+         
+         <button name="button">Подтвердить</button>
+         <br />
+         <br />
+     }
+ }
+ else if (ViewBag.App)
+ {
+     <h3>Заявка на покупку тура отправлена менеджеру. Наш менеджер свяжется с вами при первой же возможности</h3>
+ }
+
+
+    @Html.ActionLink("Вернуться к туру", "Index", "Tour", new {button = ViewBag.id}, new {@class = "ui-icon-link-class", attr = "attribute value"})
+}
+
+@if (Request.IsAuthenticated)
+{
+        if(ViewBag.MaxIdApplication > 0)
+        {
+            
+            using (Html.BeginForm("ViewApplication", "Application", FormMethod.Post))
+            {
+                <table>
+    <tr><td><p>Имя </p></td><td><p>Фамилия </p></td><td><p>Очество </p></td><td><p>Телефон </p></td><td><p>E-mail</p></td>
+                @for(int i = 0; i < ViewBag.Application.Count; i++)
+                {
+                     <tr><td><p>@ViewBag.Application[i].Name &nbsp;&nbsp;</p></td><td><p>@ViewBag.Application[i].Surname &nbsp;&nbsp;</p></td><td><p>@ViewBag.Application[i].Patronymic &nbsp;&nbsp;</p></td><td><p>@ViewBag.Application[i].PhoneNumber &nbsp;&nbsp;</p></td><td><p>@ViewBag.Application[i].Email &nbsp;&nbsp;</p></td><td><button name="button" value="@i">Подробнее</button></td></tr> 
+                }
+                </table>
+            }
+        }
+        else
+        {
+            <h3>Заявки на тур отсутствуют</h3>
+        }
+}

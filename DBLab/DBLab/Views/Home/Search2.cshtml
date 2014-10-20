@@ -1,0 +1,31 @@
+﻿@{
+    ViewBag.Title = "Результат поиска";
+}
+
+<div>
+
+        <h3>Результат поиска</h3>
+        @if(ViewBag.Result.Count != 0)
+        {
+            
+            using (Html.BeginForm("Index", "Tour", FormMethod.Post))
+            {
+                <table>
+                <tr><td><p>Название отеля &nbsp;&nbsp;</p></td><td><p>Категория &nbsp;&nbsp;</p></td><td><p>Размещение &nbsp;&nbsp;</p></td><td><p>Питание &nbsp;&nbsp;</p></td><td><p>Тариф &nbsp;&nbsp;</p></td><td><p>Дата предоставления &nbsp;&nbsp;</p></td><td><p>Ночей &nbsp;&nbsp;</p></td><td><p>Класс &nbsp;&nbsp;</p></td><td><p>Стоимость &nbsp;&nbsp;</p></td><td><p>Заказ тура</p></td></tr>
+                @for(int i = 0; i < ViewBag.Result.Count; i++)
+                {
+                     <tr><td><p>@ViewBag.Result[i].name &nbsp;&nbsp;</p></td><td><p>@ViewBag.Result[i].category* &nbsp;&nbsp;</p></td><td><p>@ViewBag.Result[i].room &nbsp;&nbsp;</p></td><td><p>@ViewBag.Result[i].eat &nbsp;&nbsp;</p></td><td><p>@ViewBag.Result[i].tariff &nbsp;&nbsp;</p></td><td><p>@ViewBag.Result[i].start &nbsp;&nbsp;</p></td><td><p>@ViewBag.Result[i].numberNights &nbsp;&nbsp;</p></td><td><p>@ViewBag.Result[i].Class &nbsp;&nbsp;</p></td><td><p>@ViewBag.Result[i].cost &nbsp;&nbsp;</p></td><td><p><button name="button" value="@i">Заказать</button></td></tr> 
+                }
+                </table>
+            }
+        }
+        @if(ViewBag.Result.Count == 0)
+        {
+            <h3>По Вашему запросу ничего не найдено.</h3>
+        }
+    <br />
+    <!--<a href="localhost:49236">Вернуться к поиску</a>-->
+    @Html.ActionLink("Вернуться к поиску", "Index")
+
+    </div>
+

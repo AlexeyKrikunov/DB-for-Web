@@ -1,0 +1,13 @@
+﻿<!--?xml version="1.0" encoding="utf-8" ?-->
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="DBLab" namespace="DBLab.Models">
+  <class name="GroupTourists" table="group_tourists">
+    <id name="id" column="id_group_tourists" type="int"></id>
+    <property name="surnameGuide" column="surname_guide" type="String"></property>
+    <property name="nameGuide" column="name_guide" type="String"></property>
+    <property name="patronymicGuide" column="patronymic_guide" type="String"></property>
+
+    <many-to-one name="tourist" class="Tourist" column="id_tourist"></many-to-one>
+    <many-to-one name="tour" class="Tour" column="id_tour"></many-to-one>
+
+  </class>
+</hibernate-mapping>

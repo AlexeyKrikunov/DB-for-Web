@@ -1,0 +1,141 @@
+﻿@{
+    ViewBag.Title = "Подробнее о туре";
+}
+
+@if (!ViewBag.EmptyTour)
+{
+
+    <h3>Программа: @ViewBag.Card.type &nbsp;&nbsp; Тур: @ViewBag.Card.tariff &nbsp;&nbsp; @ViewBag.Card.country &nbsp;&nbsp; @ViewBag.Card.city</h3>
+    <table>
+        <tr><td><p>Дата предоставления</p></td><td><p>Продолжительность</p></td><td><p>Стоимость</p></td></tr>
+        @if (ViewBag.Card.numberNights == 1)
+        {
+            <tr><td><p>@ViewBag.Card.start</p></td><td><p>@ViewBag.Card.numberNights ночь</p></td><td><p>@ViewBag.Card.cost</p></td></tr>
+        }
+        @if (ViewBag.Card.numberNights > 1 && ViewBag.Card.numberNights < 5)
+        {
+            <tr><td><p>@ViewBag.Card.start</p></td><td><p>@ViewBag.Card.numberNights ночи</p></td><td><p>@ViewBag.Card.cost</p></td></tr>
+        }
+        @if (ViewBag.Card.numberNights >= 5)
+        {
+            <tr><td><p>@ViewBag.Card.start</p></td><td><p>@ViewBag.Card.numberNights ночей</p></td><td><p>@ViewBag.Card.cost</p></td></tr>
+        }
+    </table>
+    <br />
+    <br />
+    <p>Проживание, с @ViewBag.Card.start по @ViewBag.Card.end</p>
+    <p>@ViewBag.Card.room | @ViewBag.Card.eat | @ViewBag.Card.name @ViewBag.Card.category*, @ViewBag.Card.city, @ViewBag.Card.country</p>
+    <br />
+    <p>Страховщик: @ViewBag.Card.HealthInsurance</p>
+    <br />
+    <p>Тип транспорта: @ViewBag.Card.TypeTransportCompany &nbsp;&nbsp; Компания: @ViewBag.Card.NameTransportCompany &nbsp;&nbsp; Класс: @ViewBag.Card.Class</p>
+    <br />
+    <br />
+ if (Request.IsAuthenticated && ViewBag.ChApp)
+ {
+     <text> <h3>Имя: @ViewBag.appData[0] &nbsp;&nbsp;&nbsp;  Фамилия: @ViewBag.appData[1] &nbsp;&nbsp;&nbsp;  Отчество: @ViewBag.appData[2]</h3></text>
+     <br />
+     <text><h3>Телефон: @ViewBag.appData[3]&nbsp;&nbsp;&nbsp; E-Mail: @ViewBag.appData[4]</h3></text>
+     <br />
+     <br />
+ }
+ if (Request.IsAuthenticated)
+ {
+     for (int i = 0; i < ViewBag.Check; i++)
+     {
+         <p>Турист @(i + 1) добавлен</p>
+     }
+     for (int i = ViewBag.Check; i < ViewBag.Card.numberTourists; i++)
+     {
+         <h3>Турист @(i + 1)</h3>
+         using (Html.BeginForm("AddTourists", "Tour", FormMethod.Post))
+         {
+             <h3>Имя:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 @Html.TextBox("name", null, new {style = "width:200px;"})
+                 <br />
+                 Фамилия:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 @Html.TextBox("surname", null, new {style = "width:200px;"})
+                 <br />
+                 Отчество:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 @Html.TextBox("patronymic", null, new {style = "width:200px;"})
+                 <br />
+                 Контактный телефон:&nbsp;&nbsp;
+                 @Html.TextBox("phoneNumber", null, new {style = "width:200px;"})
+                 <br />
+                 Город проживания:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 @Html.TextBox("city", null, new {style = "width:200px;"})
+                 <br />
+                 Адрес:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 @Html.TextBox("address", null, new {style = "width:400px;"})
+                 <br />
+                 Паспортные данные:&nbsp;&nbsp;
+                 @Html.TextBox("passportData", null, new {style = "width:400px;"})
+                 <br />
+             </h3>
+             <button name="button" value="@(i + 1)">Подтвердить</button>
+         }
+     }
+     if (ViewBag.ChApp && ViewBag.Check != ViewBag.Card.numberTourists)
+     {
+         using (Html.BeginForm("DeleteCard", "Tour", FormMethod.Post))
+         {
+             <button name="button">Отмена</button>
+         }
+     }
+     <br />
+     <br />
+         if (ViewBag.Check == ViewBag.Card.numberTourists)
+     {
+         <h3>Тур забронирован</h3>
+     }
+     if (ViewBag.Check == ViewBag.Card.numberTourists && ViewBag.ChApp)
+     {
+         <!--<h3>Тур забронирован</h3>-->
+         using (Html.BeginForm("DeleteCard", "Tour", FormMethod.Post))
+         {
+             <button name="button">ОК</button>
+         }
+     }
+ }
+ else
+ {
+     if (!ViewBag.App)
+     {
+         //using (Html.BeginForm("Index", "Application", FormMethod.Post))
+         //{
+        <!-- <h3>Чтобы заказать тур, обратитесь в ближайший офис туристической компании.</h3>-->
+      //   @Html.ActionLink("Заказать тур", "Index", "Application")
+         using (Html.BeginForm("Index", "Application", FormMethod.Post))
+         {
+             <button name="button">Заказать тур</button>
+         }
+         ;
+         // }
+     }
+     if (ViewBag.App)
+     {
+         <h3>Заявка оформлена</h3>
+     }
+ }
+<br />
+if (!ViewBag.ChApp)
+{
+    @Html.ActionLink("Вернуться к результату поиска", "Search2", "Home")
+}
+    
+}
+else
+{
+    <h3>Свободных мест уже нет</h3>
+    using (@Html.BeginForm("DeleteCard", "Tour", FormMethod.Post))
+    {
+        <br />
+        <button name="button">OK</button> 
+    }
+}

@@ -1,0 +1,16 @@
+﻿<!--?xml version="1.0" encoding="utf-8" ?-->
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="DBLab" namespace="DBLab.Models">
+  <class name="Country" table="country">
+    <id name="id" column="id_country" type="int"></id>
+    <property name="nameCountry" column="name_country" type="String"></property>
+    <property name="region" column="region" type="String"></property>
+    <property name="visa" column="visa" type="bool"></property>
+    <property name="nameCompany" column="name_company" type="String"></property>
+    <property name="embassy" column="embassy" type="String"></property>
+
+    <bag name="tours" table="tour">
+      <key column="id_country"></key>
+      <one-to-many class="Tour"></one-to-many>
+    </bag>    
+  </class>
+</hibernate-mapping>

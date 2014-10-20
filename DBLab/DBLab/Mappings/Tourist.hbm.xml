@@ -1,0 +1,18 @@
+﻿<!--?xml version="1.0" encoding="utf-8" ?-->
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="DBLab" namespace="DBLab.Models">
+  <class name="Tourist" table="tourist">
+    <id name="id" column="id_tourist" type="int"></id>
+    <property name="surname" column="surname" type="String"></property>
+    <property name="name" column="name" type="String"></property>
+    <property name="patronymic" column="patronymic" type="String"></property>
+    <property name="passportData" column="passport_data" type="String"></property>
+    <property name="city" column="city" type="String"></property>
+    <property name="phoneNumber" column="phone_number" type="String"></property>
+    <property name="address" column="address" type="String"></property>
+
+    <bag name="group" table="group_tourists">
+      <key column="id_tourist"></key>
+      <one-to-many class="GroupTourists"></one-to-many>
+    </bag>
+  </class>
+</hibernate-mapping>

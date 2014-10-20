@@ -1,0 +1,16 @@
+﻿<!--?xml version="1.0" encoding="utf-8" ?-->
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="DBLab" namespace="DBLab.Models">
+  <class name="PlacesHotel" table="places_hotel">
+    <id name="id" column="id_place" type="int"></id>
+    <property name="date" column="date" type="DateTime"></property>
+    <property name="places" column="places" type="int"></property>
+    <property name="typeEat" column="type_eat" type="String"></property>
+    <property name="typeRoom" column="type_room" type="String"></property>
+    <property name="animals" column="animals" type="bool"></property>
+    <property name="roomPrice" column="room_price" type="int"></property>
+
+    <many-to-one name="tour" class="Tour" column="id_tour"></many-to-one>
+    <many-to-one name="hotel" class="Hotel" column="id_hotel"></many-to-one>
+
+  </class>
+</hibernate-mapping>

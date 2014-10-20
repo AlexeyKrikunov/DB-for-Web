@@ -1,0 +1,41 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>
+      
+    </title>
+</head>
+<body>
+    
+ 
+    <div>
+
+        <h3>Результат поиска</h3>
+        @if(ViewBag.Result.Count != 0)
+        {
+            using (Html.BeginForm("Index", "Tour", FormMethod.Post))
+            {
+                <table>
+                <tr><td><p>Название отеля &nbsp;&nbsp;</p></td><td><p>Категория &nbsp;&nbsp;</p></td><td><p>Размещение &nbsp;&nbsp;</p></td><td><p>Питание &nbsp;&nbsp;</p></td><td><p>Тариф &nbsp;&nbsp;</p></td><td><p>Дата предоставления &nbsp;&nbsp;</p></td><td><p>Ночей &nbsp;&nbsp;</p></td><td><p>Стоимость &nbsp;&nbsp;</p></td><td><p>Заказ тура</p></td></tr>
+                @foreach (var c in ViewBag.Result)
+                {
+                     <tr><td><p>@c.name &nbsp;&nbsp;</p></td><td><p>@c.category* &nbsp;&nbsp;</p></td><td><p>@c.room &nbsp;&nbsp;</p></td><td><p>@c.eat &nbsp;&nbsp;</p></td><td><p>@c.tariff &nbsp;&nbsp;</p></td><td><p>@c.start &nbsp;&nbsp;</p></td><td><p>@c.numberNights &nbsp;&nbsp;</p></td><td><p>@c.cost &nbsp;&nbsp;</p></td><td><p><input id="submit" type="submit" value="Submit" /></td></tr>
+                }
+                </table>
+                <a href="/HelloWorld/">Подать заявку на получение кредита</a>
+            }
+        }
+        @if(ViewBag.Result.Count == 0)
+        {
+            <h3>По Вашему запросу ничего не найдено.</h3>
+        }
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="DBLab" namespace="DBLab.Models">
+  <class name="Application" table="application">
+    <id name="id" column="id" type="int"></id>
+    <property name="idCountry" column="id_country" type="String"></property>
+    <property name="idCityArrive" column="id_city_arrive" type="String"></property>
+    <property name="idTourType" column="id_tour_type" type="String"></property>
+    <property name="idCityDeparture" column="id_city_departure" type="String"></property>
+    <property name="idTypeTariff" column="id_type_tariff" type="String"></property>
+    <property name="idFrom" column="id_from" type="String"></property>
+    <property name="idTo" column="id_to" type="String"></property>
+    <property name="idTypeFood" column="id_type_food" type="String"></property>
+    <property name="idTypeRoom" column="id_type_room" type="String"></property>
+    <property name="idTypeHotel" column="id_type_hotel" type="String"></property>
+    <property name="idHotel" column="id_hotel" type="String"></property>
+    <property name="idStartDay" column="id_start_day" type="String"></property>
+    <property name="idStartMonth" column="id_start_month" type="String"></property>
+    <property name="idStartYear" column="id_start_year" type="String"></property>
+    <property name="idStopDay" column="id_stop_day" type="String"></property>
+    <property name="idStopMonth" column="id_stop_month" type="String"></property>
+    <property name="idStopYear" column="id_stop_year" type="String"></property>
+    <property name="idNumberTourists" column="id_number_tourists" type="String"></property>
+    <property name="Name" column="name" type="String"></property>
+    <property name="Surname" column="surname" type="String"></property>
+    <property name="Patronymic" column="patronymic" type="String"></property>
+    <property name="PhoneNumber" column="phone_number" type="String"></property>
+    <property name="Email" column="email" type="String"></property>
+    <property name="idSearch" column="id_search" type="int"></property>
+    
+  </class>
+</hibernate-mapping>

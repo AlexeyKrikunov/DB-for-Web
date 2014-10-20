@@ -1,0 +1,17 @@
+﻿<!--?xml version="1.0" encoding="utf-8" ?-->
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="DBLab" namespace="DBLab.Models">
+  <class name="Hotel" table="hotel">
+    <id name="id" column="id_hotel" type="int"></id>
+    <property name="name" column="name" type="String"></property>
+    <property name="category" column="category" type="int"></property>
+    <property name="city" column="city" type="String"></property>
+    <property name="address" column="address" type="String"></property>
+    <property name="language" column="language" type="bool"></property>
+
+    <bag name="places" table="places_hotel">
+      <key column="id_hotel"></key>
+      <one-to-many class="PlacesHotel"></one-to-many>
+    </bag>
+
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,233 @@
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\DBLab.dll
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\DBLab.pdb
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\Antlr3.Runtime.dll
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\DotNetOpenAuth.Core.dll
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\EntityFramework.dll
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\Newtonsoft.Json.dll
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\System.Net.Http.Formatting.dll
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\System.Web.Helpers.dll
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\System.Web.Http.dll
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\System.Web.Http.WebHost.dll
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\System.Web.Mvc.dll
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\System.Web.Optimization.dll
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\System.Web.Razor.dll
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\System.Web.WebPages.Deployment.dll
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\System.Web.WebPages.dll
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\System.Web.WebPages.Razor.dll
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\WebGrease.dll
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\WebMatrix.Data.dll
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\WebMatrix.WebData.dll
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\EntityFramework.xml
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\Newtonsoft.Json.xml
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\System.Net.Http.Formatting.xml
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\System.Web.Helpers.xml
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\System.Web.Http.xml
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\System.Web.Http.WebHost.xml
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\System.Web.Mvc.xml
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\System.Web.Razor.xml
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\System.Web.WebPages.xml
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\System.Web.WebPages.Deployment.xml
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\System.Web.WebPages.Razor.xml
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\WebMatrix.Data.xml
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\WebMatrix.WebData.xml
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\DotNetOpenAuth.Core.xml
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\ru\EntityFramework.resources.dll
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\ru\System.Net.Http.Formatting.resources.dll
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\ru\System.Web.Helpers.resources.dll
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\ru\System.Web.Http.resources.dll
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\ru\System.Web.Http.WebHost.resources.dll
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\ru\System.Web.Mvc.resources.dll
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\ru\System.Web.Optimization.resources.dll
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\ru\System.Web.Razor.resources.dll
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\ru\System.Web.WebPages.resources.dll
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\ru\System.Web.WebPages.Deployment.resources.dll
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\ru\System.Web.WebPages.Razor.resources.dll
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\ru\WebMatrix.Data.resources.dll
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\ru\Microsoft.Web.WebPages.OAuth.resources.dll
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\ru\WebMatrix.WebData.resources.dll
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\obj\Debug\DBLab.csprojResolveAssemblyReference.cache
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\obj\Debug\DBLab.dll
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\obj\Debug\DBLab.pdb
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\Iesi.Collections.dll
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\Mono.Security.dll
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\NHibernate.dll
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\Npgsql.dll
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\policy.2.0.Npgsql.dll
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\Iesi.Collections.pdb
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\Iesi.Collections.xml
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\NHibernate.pdb
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\NHibernate.xml
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\Npgsql.pdb
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\Npgsql.xml
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\de\Npgsql.resources.dll
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\es\Npgsql.resources.dll
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\fi\Npgsql.resources.dll
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\fr\Npgsql.resources.dll
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\ja\Npgsql.resources.dll
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\zh-CN\Npgsql.resources.dll
+C:\Users\-\Documents\Visual Studio 2012\Projects\DBLab\DBLab\bin\policy.2.0.Npgsql.config
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\DBLab.dll
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\DBLab.pdb
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\Antlr3.Runtime.dll
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\DotNetOpenAuth.AspNet.dll
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\DotNetOpenAuth.Core.dll
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\DotNetOpenAuth.OAuth.Consumer.dll
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\DotNetOpenAuth.OAuth.dll
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\DotNetOpenAuth.OpenId.dll
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\EntityFramework.dll
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\Microsoft.Web.Infrastructure.dll
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\Microsoft.Web.WebPages.OAuth.dll
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\Newtonsoft.Json.dll
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\System.Net.Http.Formatting.dll
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\System.Web.Helpers.dll
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\System.Web.Http.dll
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\System.Web.Http.WebHost.dll
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\System.Web.Mvc.dll
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\System.Web.Optimization.dll
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\System.Web.Razor.dll
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\System.Web.WebPages.Deployment.dll
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\System.Web.WebPages.dll
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\System.Web.WebPages.Razor.dll
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\WebGrease.dll
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\WebMatrix.Data.dll
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\WebMatrix.WebData.dll
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\Iesi.Collections.pdb
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\Iesi.Collections.xml
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\NHibernate.pdb
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\NHibernate.xml
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\Npgsql.pdb
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\Npgsql.xml
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\EntityFramework.xml
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\Newtonsoft.Json.xml
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\System.Net.Http.Formatting.xml
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\System.Web.Helpers.xml
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\System.Web.Http.xml
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\System.Web.Http.WebHost.xml
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\System.Web.Mvc.xml
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\System.Web.Razor.xml
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\System.Web.WebPages.xml
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\System.Web.WebPages.Deployment.xml
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\System.Web.WebPages.Razor.xml
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\WebMatrix.Data.xml
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\Microsoft.Web.WebPages.OAuth.xml
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\WebMatrix.WebData.xml
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\DotNetOpenAuth.AspNet.xml
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\DotNetOpenAuth.Core.xml
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\DotNetOpenAuth.OAuth.Consumer.xml
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\DotNetOpenAuth.OAuth.xml
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\DotNetOpenAuth.OpenId.xml
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\de\Npgsql.resources.dll
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\es\Npgsql.resources.dll
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\fi\Npgsql.resources.dll
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\fr\Npgsql.resources.dll
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\ja\Npgsql.resources.dll
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\zh-CN\Npgsql.resources.dll
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\ru\EntityFramework.resources.dll
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\ru\System.Net.Http.Formatting.resources.dll
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\ru\System.Web.Helpers.resources.dll
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\ru\System.Web.Http.resources.dll
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\ru\System.Web.Http.WebHost.resources.dll
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\ru\System.Web.Mvc.resources.dll
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\ru\System.Web.Optimization.resources.dll
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\ru\System.Web.Razor.resources.dll
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\ru\System.Web.WebPages.resources.dll
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\ru\System.Web.WebPages.Deployment.resources.dll
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\ru\System.Web.WebPages.Razor.resources.dll
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\ru\WebMatrix.Data.resources.dll
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\ru\Microsoft.Web.WebPages.OAuth.resources.dll
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\ru\WebMatrix.WebData.resources.dll
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\bin\policy.2.0.Npgsql.config
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\obj\Debug\DBLab.csprojResolveAssemblyReference.cache
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\obj\Debug\DBLab.dll
+H:\МАИ 8-й факультет\МАИ 8-й факультет (ноут)\4-й курс\8-й семестр\Проектирование БД\ORM+MVC_Project\DBLab\DBLab\obj\Debug\DBLab.pdb
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\DBLab.dll
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\DBLab.pdb
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\Antlr3.Runtime.dll
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\DotNetOpenAuth.Core.dll
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\EntityFramework.dll
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\Newtonsoft.Json.dll
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\System.Net.Http.Formatting.dll
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\System.Web.Helpers.dll
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\System.Web.Http.dll
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\System.Web.Http.WebHost.dll
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\System.Web.Mvc.dll
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\System.Web.Optimization.dll
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\System.Web.Razor.dll
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\System.Web.WebPages.dll
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\System.Web.WebPages.Razor.dll
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\WebGrease.dll
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\WebMatrix.Data.dll
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\WebMatrix.WebData.dll
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\Iesi.Collections.pdb
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\Iesi.Collections.xml
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\NHibernate.pdb
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\NHibernate.xml
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\Npgsql.pdb
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\Npgsql.xml
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\EntityFramework.xml
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\Newtonsoft.Json.xml
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\System.Net.Http.Formatting.xml
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\System.Web.Helpers.xml
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\System.Web.Http.xml
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\System.Web.Http.WebHost.xml
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\System.Web.Mvc.xml
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\System.Web.Razor.xml
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\System.Web.WebPages.xml
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\System.Web.WebPages.Razor.xml
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\WebMatrix.Data.xml
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\WebMatrix.WebData.xml
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\DotNetOpenAuth.Core.xml
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\de\Npgsql.resources.dll
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\es\Npgsql.resources.dll
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\fi\Npgsql.resources.dll
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\fr\Npgsql.resources.dll
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\ja\Npgsql.resources.dll
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\zh-CN\Npgsql.resources.dll
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\ru\EntityFramework.resources.dll
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\ru\System.Net.Http.Formatting.resources.dll
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\ru\System.Web.Helpers.resources.dll
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\ru\System.Web.Http.resources.dll
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\ru\System.Web.Http.WebHost.resources.dll
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\ru\System.Web.Mvc.resources.dll
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\ru\System.Web.Optimization.resources.dll
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\ru\System.Web.Razor.resources.dll
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\ru\System.Web.WebPages.resources.dll
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\ru\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\ru\System.Web.WebPages.Razor.resources.dll
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\ru\WebMatrix.Data.resources.dll
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\ru\Microsoft.Web.WebPages.OAuth.resources.dll
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\ru\WebMatrix.WebData.resources.dll
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\bin\policy.2.0.Npgsql.config
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\obj\Debug\DBLab.csprojResolveAssemblyReference.cache
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\obj\Debug\DBLab.dll
+C:\Users\Сергей\Desktop\МАИ 8-й факультет\5-й курс\10-й семестр\Сетевое программирование\DBLab\DBLab\obj\Debug\DBLab.pdb

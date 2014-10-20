@@ -1,0 +1,17 @@
+﻿<!--?xml version="1.0" encoding="utf-8" ?-->
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="DBLab" namespace="DBLab.Models">
+  <class name="SeatsTransport" table="seats_transport">
+    <id name="id" column="id_seat" type="int"></id>
+    <property name="date" column="date" type="DateTime"></property>
+    <property name="cityOrigin" column="city_origin" type="String"></property>
+    <property name="cityArrival" column="city_arrival" type="String"></property>
+    <property name="seats" column="seats" type="int"></property>
+    <property name="Class" column="class" type="String"></property>
+    <property name="tiketPrice" column="tiket_price" type="int"></property>
+    <property name="number" column="number" type="int"></property>
+
+    <many-to-one name="tour" class="Tour" column="id_tour"></many-to-one>
+    <many-to-one name="transport" class="Transport" column="id_transport"></many-to-one>
+
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,124 @@
+﻿@{
+    ViewBag.Title = "Домашняя страница";
+}
+
+<!--<h3>Рекомендуются следующие действия:</h3>
+<ol class="round">
+    <li class="one">
+        <h5>Приступая к работе</h5>
+        ASP.NET MVC — это мощная платформа на основе шаблонов, позволяющая создавать динамические веб-сайты с
+            разделением сфер ответственности и полным контролем над разметкой:
+            разработка будет быстрой и удобной. ASP.NET MVC включает много функций,
+            обеспечивающих скорость и эффективность разработки на основе тестов, что дает возможность создавать сложные приложения, использующие
+            новейшие веб-стандарты.
+        <a href="http://go.microsoft.com/fwlink/?LinkId=245151">Дополнительные сведения...</a>
+    </li>
+
+    <li class="two">
+        <h5>Добавление пакетов NuGet и переход к программированию</h5>
+        NuGet упрощает установку и обновление бесплатных библиотек и средств.
+        <a href="http://go.microsoft.com/fwlink/?LinkId=245153">Дополнительные сведения…</a>
+    </li>
+
+    <li class="three">
+        <h5>Найти поставщика услуг размещения веб-сайтов</h5>
+        Можно легко найти компанию, предоставляющую услуги размещения приложений в Интернете и отвечающую вашим требованиям
+        к цене и функциональным возможностям.
+        <a href="http://go.microsoft.com/fwlink/?LinkId=245157">Дополнительные сведения…</a>
+    </li>
+</ol>-->
+
+
+@{
+/*using(Html.BeginForm("Index", "Home", FormMethod.Post, new{id = "myForm"}))
+    {
+            <h3>Программы кредитования</h3>
+        <table>
+        <tr><td><p>Тип кредита</p></td><td><p>Период кредитования</p></td><td><p>Максимальная сумма</p></td><td><p>Ставка %</p></td></tr>
+        @foreach (var c in ViewBag.Tourist)
+        {
+             <tr><td><p>@c.id</p></td><td><p>@c.name</p></td></tr>
+        }
+        </table>
+        <a href="/HelloWorld/">Подать заявку на получение кредита</a>
+}
+*/
+//<script type="text/javascript">
+using(Html.BeginForm("Index", "Home", FormMethod.Post))
+{
+  // @Html.Label("Страна:\tГород:");
+  //  @Html.Label("Регион");
+    <h3>Страна: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Регион: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Тип тура: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Город Вылета: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Тип тарифа: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </h3>
+
+   @Html.DropDownList("Country", (List<SelectListItem>)ViewBag.Countries, new { style = "width:140px;", onchange = "this.form.submit();"});<text>&nbsp;&nbsp;</text>
+   @Html.DropDownList("City", (List<SelectListItem>)ViewBag.Cities, new { style = "width:120px;", onchange = "this.form.submit();"});<text>&nbsp;&nbsp;</text>
+   @Html.DropDownList("Type", (List<SelectListItem>)ViewBag.Types, new { style = "width:140px;", onchange = "this.form.submit();" });<text>&nbsp;&nbsp;</text>
+   @Html.DropDownList("CityOrigin", (List<SelectListItem>)ViewBag.CitiesOrigin, new { style = "width:140px;", onchange = "this.form.submit();" });<text>&nbsp;&nbsp;</text>
+   @Html.DropDownList("Tariff", (List<SelectListItem>)ViewBag.Tariff, new { style = "width:140px;", onchange = "this.form.submit();" });<text>&nbsp;&nbsp;</text>
+    <h3>Продолжительность: &nbsp;&nbsp;
+        Тип питания: &nbsp;&nbsp;&nbsp;
+        Тип номера: &nbsp;&nbsp;&nbsp;&nbsp;
+        Категория: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Отель:<br />
+    От&nbsp;@Html.DropDownList("DurationS", (List<SelectListItem>)ViewBag.Duration, new { style = "width:50px;", onchange = "this.form.submit();" })&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;До
+    @Html.DropDownList("DurationE", (List<SelectListItem>)ViewBag.Duration, new { style = "width:50px;", onchange = "this.form.submit();" })&nbsp;&nbsp;
+    @Html.DropDownList("Food", (List<SelectListItem>)ViewBag.Food, new { style = "width:110px;", onchange = "this.form.submit();" })&nbsp;&nbsp;
+    @Html.DropDownList("Room", (List<SelectListItem>)ViewBag.Room, new { style = "width:110px;", onchange = "this.form.submit();" })&nbsp;&nbsp;
+    @Html.DropDownList("Category", (List<SelectListItem>)ViewBag.Category, new { style = "width:100px;", onchange = "this.form.submit();" })&nbsp;&nbsp;
+    @Html.DropDownList("hotel", (List<SelectListItem>)ViewBag.Hotel, new { style = "width:170px;", onchange = "this.form.submit();" })&nbsp;&nbsp;</h3>
+    <tr><h3></h3></tr>
+   // @Html.TextBox("CostS");
+  //  @Html.TextBox("CostE");
+    <h3>Дата предоставления:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Туристов:
+        <br />
+    C&nbsp;@Html.DropDownList("Day1", (List<SelectListItem>)ViewBag.Days, new { onchange = "this.form.submit();" })
+    @Html.DropDownList("Month1", (List<SelectListItem>)ViewBag.Monthes, new { onchange = "this.form.submit();" })
+    @Html.DropDownList("Year1", (List<SelectListItem>)ViewBag.Years, new { onchange = "this.form.submit();" })&nbsp;&nbsp;До&nbsp;
+
+    
+    @Html.DropDownList("Day2", (List<SelectListItem>)ViewBag.Days, new { onchange = "this.form.submit();" })
+    @Html.DropDownList("Month2", (List<SelectListItem>)ViewBag.Monthes, new { onchange = "this.form.submit();" })
+    @Html.DropDownList("Year2", (List<SelectListItem>)ViewBag.Years, new { onchange = "this.form.submit();" })&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+    @Html.DropDownList("Tourist", (List<SelectListItem>)ViewBag.Tourists, new { style = "width:100px;", onchange = "this.form.submit();" })
+    </h3>
+}
+
+using(Html.BeginForm("Search2", "Home", FormMethod.Post))
+{
+    <h3>Стоимость: <br />
+    От&nbsp;@Html.TextBox("CostS", null, new { style = "width:100px;" })&nbsp;&nbsp;До&nbsp;
+    @Html.TextBox("CostE", null, new { style = "width:100px;" })&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input id="submit" type="submit" value="Поиск" />
+    </h3>
+}
+
+//using(Html.BeginForm("Country", "Home", FormMethod.Post))
+//{
+//    @Html.DropDownList("country", (List<SelectListItem>)ViewBag.Countries2, new { onchange = "this.form.submit();" });
+//}
+
+//using(Html.BeginForm("Drop", "Home", FormMethod.Post))
+//{
+ //   @Html.DropDownList("Country", (List<SelectListItem>)ViewBag.Countries, new { onchange = "this.form.submit();" });
+//}
+  //  </script>
+ 
+ /* <script type="text/javascript">
+      function Drop(Country) {
+          Country += 1;
+          var n = Country;
+          console.info.call();
+
+      }
+  </script>*/   
+}
